@@ -37,9 +37,4 @@ class Application
     end
   end
 
-  def show_cart
-    @@cart.each do |item|
-      resp.write "#{item}\n"
-    end
-  end
 end
