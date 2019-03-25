@@ -33,7 +33,7 @@ class Application
 
   def show_cart
     @@cart.each do |item|
-      resp.puts "#{item}\n"
+      resp.write "#{item}\n"
     end
   end
 end
